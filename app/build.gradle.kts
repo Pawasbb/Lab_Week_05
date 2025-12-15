@@ -47,6 +47,8 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-scalars:2.9.0")
     // MOSHI
     implementation("com.squareup.retrofit2:converter-moshi:2.9.0")
+    // GLIDE
+    implementation("com.github.bumptech.glide:glide:4.14.2")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
